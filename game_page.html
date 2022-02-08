@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <tittle> That math quiz Game !!</tittle>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" type="text/css" href="style.css">
+           <script src="game_page.js"> </script>
+         
+            </head>
+            <body>
+                <h1>Math Quiz Game !! By Amitee</h1>
+                <h4 id="player1_name"> </h4> <span id="player1_score"></span>
+                <br>
+                <h4 id="player2_name"> </h4> <span id="player2_score"></span>
+                <divc class="container">
+                    <center>
+                        <h2 style="color: white;">Maths Quiz Game!</h2>
+                        <br>
+                        <h3 id="player_question"></h3>
+                        <br>
+                <h3 id="player_answer"></h3>
+                <br>
+                <div id="output" class="col-lg-6"></div>
+                        <br>
+                        <br>
+                       <label>Send You Sum: <b style="color: red">In the input box you have to give a sum or a mathamatical opreation and click the send button the player 2 will ans the question and if he/she give wrong ans so you will get a point if not you he/she will get one (try to give hard questions)</b></label>
+                       <br>
+                <input type="text" id="sum" class="form-contorl" placeholder="Word">
+                        <br>
+                        <br>
+                        <button onclick="send()" class="btn btn-info" style="width:30%;">Send</button>
+                
+                    </center>
+                </div>
